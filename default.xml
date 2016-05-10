@@ -21,6 +21,7 @@
   <project path="linux/0.12" name="novelinux/linux-0.12"/>
   <project path="linux/0.98" name="novelinux/linux-0.98"/>
   <project path="linux/4.x.y" name="novelinux/linux-4.x.y"/>
+  <project path="manifest" name="novelinux/manifest"/>
   <project path="system_calls" name="novelinux/system_calls"/>
   <project path="toolbox" name="novelinux/toolbox"/>
 </manifest>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- fetch="https://github.com/"-->
+  <remote name="novelinux"
+          fetch="ssh://git@github.com"
+          review="review.gerrithub.io:29418" />
+
+  <default revision="master"
+           remote="origin"
+           sync-j="4"/>
+
+  <project path="arch/x86" name="novelinux/arch-x86"/>
+  <project path="arch/arm/common" name="novelinux/arch-arm-common"/>
+  <project path="arch/arm64/common" name="novelinux/arch-arm64-common"/>
+  <project path="arch/arm/msm/8960" name="novelinux/arch-arm-msm-8960"/>
+  <project path="arch/arm/samsung/s3c2440" name="novelinux/arch-arm-samsung-s3c2440"/>
+  <project path="bootloader/lk" name="novelinux/bootloader-lk"/>
+  <project path="compiler/gcc" name="novelinux/compiler-gcc"/>
+  <project path="linker" name="novelinux/linker"/>
+  <project path="linux/0.11" name="novelinux/linux-0.11"/>
+  <project path="linux/0.12" name="novelinux/linux-0.12"/>
+  <project path="linux/0.98" name="novelinux/linux-0.98"/>
+  <project path="linux/4.x.y" name="novelinux/linux-4.x.y"/>
+  <project path="system_calls" name="novelinux/system_calls"/>
+  <project path="toolbox" name="novelinux/toolbox"/>
+</manifest>

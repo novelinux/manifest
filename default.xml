@@ -6,7 +6,7 @@
           review="review.gerrithub.io:29418" />
 
   <default revision="master"
-           remote="origin"
+           remote="novelinux"
            sync-j="4"/>
 
   <project path="arch/x86" name="novelinux/arch-x86"/>

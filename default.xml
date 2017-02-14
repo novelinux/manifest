@@ -9,6 +9,7 @@
            remote="novelinux"
            sync-j="4"/>
 
+  <project path="android" name="novelinux/android"/>
   <project path="arch/x86" name="novelinux/arch-x86"/>
   <project path="arch/arm/common" name="novelinux/arch-arm-common"/>
   <project path="arch/arm64/common" name="novelinux/arch-arm64-common"/>
